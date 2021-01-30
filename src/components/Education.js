@@ -1,0 +1,128 @@
+import * as React from "react"
+import { Link } from 'gatsby';
+
+import { navLinks } from '../../config';
+
+const Education = () => {
+    return (
+        <div id="education">
+            <section class="my-5 mb-5 mx-auto container w-4/5 px-5 py-5">
+                <h1 className="uppercase font-bold text-4xl mb-3">
+                    Education
+                </h1>
+                <div class="flex mb-5">
+                    <img
+                        class="w-12 h-12 rounded"
+                        src="https://upload.wikimedia.org/wikipedia/commons/1/14/King%27s_College_London_logo.svg"></img>
+                    <span class="mx-5 my-3 text-extrabold">King's College London</span>
+                </div>
+                <div class="container grid lg:grid-cols-3 md:grid-cols-1 gap-8 mx-auto mb-5">
+                    <div class="relative pt-1 lg:col-span-3">
+                        <div class="flex mb-2 items-center justify-between ">
+                            <div>
+                                <span class="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-white-200">
+                                    BSc Computer Science (Software Engineering) - First Class Honours
+                                 </span>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-xs font-semibold inline-block text-pink-600">
+                                    79%
+                                </span>
+                            </div>
+                        </div>
+                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
+                            <div style={{ width: "79%" }} class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+                        </div>
+                    </div>
+                    <div class="relative pt-1">
+                        <div class="flex mb-2 items-center justify-between">
+                            <div>
+                                <span class="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-white-200">
+                                    Individual project - Year 3
+                                 </span>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-xs font-semibold inline-block text-pink-600">
+                                    80%
+                                </span>
+                            </div>
+                        </div>
+                        <div class=" overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
+                            <div style={{ width: "80%" }} class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+                        </div>
+                    </div>
+                    <div class="relative pt-1">
+                        <div class="flex mb-2 items-center justify-between">
+                            <div>
+                                <span class="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-white-200">
+                                    Final Year Project - Year 2
+                                 </span>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-xs font-semibold inline-block text-pink-600">
+                                    96%
+                                </span>
+                            </div>
+                        </div>
+                        <div class=" overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
+                            <div style={{ width: "96%" }} class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+                        </div>
+                    </div>
+                    <div class="relative pt-1">
+                        <div class="flex mb-2 items-center justify-between">
+                            <div>
+                                <span class="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-white-200">
+                                    Software Architecture and Design - Year 3
+                                 </span>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-xs font-semibold inline-block text-pink-600">
+                                    86%
+                                </span>
+                            </div>
+                        </div>
+                        <div class=" overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
+                            <div style={{ width: "86%" }} class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex mb-5">
+                    <img
+                        class="w-12 h-12 rounded"
+
+                        src="https://www.edarabia.com/wp-content/uploads/2018/04/harris-city-academy-crystal-palace-croydon-london.jpg" />
+                    <span class="mx-5 my-3 text-extrabold">Harris City Academy Crystal Palace</span>
+                </div>
+                <div class="container grid lg:grid-cols-3 md:grid-cols-1 gap-8 mx-auto mb-5">
+                    <div class="relative pt-1">
+                        <div class="flex mb-2 items-center justify-between ">
+                            <div>
+                                <span class="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-green-600 bg-white-200">
+                                    A-Levels: Mathematics (A*), Further Mathematics (B), Economics (B)
+                                 </span>
+                            </div>
+                        </div>
+                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-green-200">
+                            <div style={{ width: "100%" }} class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"></div>
+                        </div>
+                    </div>
+                    <div class="relative pt-1">
+                        <div class="flex mb-2 items-center justify-between ">
+                            <div>
+                                <span class="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-green-600 bg-white-200">
+                                    GCSES: 11 A*-C including Mathematics (A*) and English Language (B)
+                                 </span>
+                            </div>
+                        </div>
+                        <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-green-200">
+                            <div style={{ width: "100%" }} class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    );
+}
+
+export default Education;
