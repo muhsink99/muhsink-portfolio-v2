@@ -17,7 +17,7 @@ const Education = () => {
                     <div className="relative pt-1 lg:col-span-3">
                         <div className="flex mb-2 items-center justify-between">
                             <div>
-                                <span className="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-white-200">
+                                <span className="text-s font-extrabold inline-block uppercase text-red-600 bg-white-200">
                                     BSc Computer Science (Software Engineering) - First Class Honours
                                  </span>
                             </div>
@@ -34,7 +34,7 @@ const Education = () => {
                     <div className="relative pt-1">
                         <div className="flex mb-2 items-center justify-between">
                             <div>
-                                <span className="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-white-200">
+                                <span className="text-s font-extrabold inline-block uppercase text-red-600 bg-white-200">
                                     Individual project - Year 3
                                  </span>
                             </div>
@@ -51,7 +51,7 @@ const Education = () => {
                     <div className="relative pt-1">
                         <div className="flex mb-2 items-center justify-between">
                             <div>
-                                <span className="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-white-200">
+                                <span className="text-s font-extrabold inline-block uppercase text-red-600 bg-white-200">
                                     Final Year Project - Year 2
                                  </span>
                             </div>
@@ -68,7 +68,7 @@ const Education = () => {
                     <div className="relative pt-1">
                         <div className="flex mb-2 items-center justify-between">
                             <div>
-                                <span className="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-white-200">
+                                <span className="text-s font-extrabold inline-block uppercase text-red-600 bg-white-200">
                                     Software Architecture and Design - Year 3
                                  </span>
                             </div>
@@ -94,7 +94,7 @@ const Education = () => {
                     <div className="relative pt-1">
                         <div className="flex mb-2 items-center justify-between ">
                             <div>
-                                <span className="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-green-600 bg-white-200">
+                                <span className="text-s font-extrabold inline-block uppercase text-green-600 bg-white-200">
                                     A-Levels: Mathematics (A*), Further Mathematics (B), Economics (B)
                                  </span>
                             </div>
@@ -106,7 +106,7 @@ const Education = () => {
                     <div className="relative pt-1">
                         <div className="flex mb-2 items-center justify-between ">
                             <div>
-                                <span className="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-green-600 bg-white-200">
+                                <span className="text-s font-extrabold inline-block uppercase text-green-600 bg-white-200">
                                     GCSES: 11 A*-C including Mathematics (A*) and English Language (B)
                                  </span>
                             </div>
