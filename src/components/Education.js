@@ -15,71 +15,71 @@ const Education = () => {
                 </div>
                 <div className="container grid lg:grid-cols-3 md:grid-cols-1 gap-8 mx-auto mb-5">
                     <div className="relative pt-1 lg:col-span-3">
-                        <div className="flex mb-2 items-center justify-between ">
+                        <div className="flex mb-2 items-center justify-between">
                             <div>
-                                <span className="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-white-200">
+                                <span className="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-white-200">
                                     BSc Computer Science (Software Engineering) - First Class Honours
                                  </span>
                             </div>
                             <div className="text-right">
-                                <span className="text-xs font-semibold inline-block text-pink-600">
+                                <span className="text-xs font-semibold inline-block text-red-600">
                                     79%
                                 </span>
                             </div>
                         </div>
-                        <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-                            <div style={{ width: "79%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+                        <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-red-200">
+                            <div style={{ width: "79%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"></div>
                         </div>
                     </div>
                     <div className="relative pt-1">
                         <div className="flex mb-2 items-center justify-between">
                             <div>
-                                <span className="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-white-200">
+                                <span className="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-white-200">
                                     Individual project - Year 3
                                  </span>
                             </div>
                             <div className="text-right">
-                                <span className="text-xs font-semibold inline-block text-pink-600">
+                                <span className="text-xs font-semibold inline-block text-red-600">
                                     80%
                                 </span>
                             </div>
                         </div>
-                        <div className=" overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-                            <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+                        <div className=" overflow-hidden h-2 mb-4 text-xs flex rounded bg-red-200">
+                            <div style={{ width: "80%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"></div>
                         </div>
                     </div>
                     <div className="relative pt-1">
                         <div className="flex mb-2 items-center justify-between">
                             <div>
-                                <span className="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-white-200">
+                                <span className="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-white-200">
                                     Final Year Project - Year 2
                                  </span>
                             </div>
                             <div className="text-right">
-                                <span className="text-xs font-semibold inline-block text-pink-600">
+                                <span className="text-xs font-semibold inline-block text-red-600">
                                     96%
                                 </span>
                             </div>
                         </div>
-                        <div className=" overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-                            <div style={{ width: "96%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+                        <div className=" overflow-hidden h-2 mb-4 text-xs flex rounded bg-red-200">
+                            <div style={{ width: "96%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"></div>
                         </div>
                     </div>
                     <div className="relative pt-1">
                         <div className="flex mb-2 items-center justify-between">
                             <div>
-                                <span className="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-white-200">
+                                <span className="text-s font-extrabold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-white-200">
                                     Software Architecture and Design - Year 3
                                  </span>
                             </div>
                             <div className="text-right">
-                                <span className="text-xs font-semibold inline-block text-pink-600">
+                                <span className="text-xs font-semibold inline-block text-red-600">
                                     86%
                                 </span>
                             </div>
                         </div>
                         <div className=" overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
-                            <div style={{ width: "86%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500"></div>
+                            <div style={{ width: "86%" }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"></div>
                         </div>
                     </div>
                 </div>
