@@ -15,11 +15,11 @@ const Projects = () => {
                     <div>
                         <h2 className="font-bold text-blue-400 text-2xl mb-2">Backlog Tracker</h2>
                         <div className="flex mb-3">
-                            <div className="technology-card"><DiSqllite className="w-4 h-4 mr-1" /><span className="text-xs">SQLlite</span></div>
-                            <div className="technology-card"><DiHtml5 className="w-4 h-4 mr-1" /><span className="text-xs">HTML5</span></div>
-                            <div className="technology-card"><DiDjango className="w-4 h-4 mr-1" /><span className="text-xs">Django</span></div>
-                            <div className="technology-card"><DiCss3 className="w-4 h-4 mr-1" /><span className="text-xs">CSS3</span></div>
-                            <div className="technology-card"><DiBootstrap className="w-4 h-4 mr-1" /><span className="text-xs">Bootstrap</span></div>
+                            <div className="technology-card"><DiSqllite className="icon-standard" /><span className="text-xs">SQLlite</span></div>
+                            <div className="technology-card"><DiHtml5 className="icon-standard" /><span className="text-xs">HTML5</span></div>
+                            <div className="technology-card"><DiDjango className="icon-standard" /><span className="text-xs">Django</span></div>
+                            <div className="technology-card"><DiCss3 className="icon-standard" /><span className="text-xs">CSS3</span></div>
+                            <div className="technology-card"><DiBootstrap className="icon-standard" /><span className="text-xs">Bootstrap</span></div>
                         </div>
                         <p className="text-lg mb-3">Built to help its user keep track of various shows from various streaming services</p>
                         <div id="project-buttons" className="flex">
