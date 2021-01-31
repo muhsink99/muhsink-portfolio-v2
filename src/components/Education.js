@@ -3,7 +3,7 @@ import * as React from "react"
 const Education = () => {
     return (
         <div id="education">
-            <section className="my-5 mb-5 mx-auto container w-4/5 px-5 py-5">
+            <section className="my-5 mb-10 mx-auto container w-4/5">
                 <h1 className="uppercase font-bold text-4xl mb-3">
                     Education
                 </h1>
