@@ -10,7 +10,7 @@ const Hero = () => {
                 </h1>
                 <h2 className="font-black text-5xl text-blue-500 mb-4">Muhsin Kumbay</h2>
                 <p className="text-2xl w-3/5 mb-4">I'm a Computer Scientist based in London, UK specialising in building incredible web and mobile solutions</p>
-                <button className="rounded shadow-md px-5 py-3 text-white font-extrabold bg-blue-400 transition duration-300 ease-in-out hover:bg-blue-200">Find out more</button>
+                <button className="btn-primary">Find out more</button>
             </section>
         </div>
     );
