@@ -12,7 +12,7 @@ const Projects = () => {
                     projects
                 </h1>
                 <div className="container grid lg:grid-cols-2 md:grid-cols-1 gap-8 mx-auto mb-5">
-                    <div>
+                    <div className="my-auto">
                         <h2 className="font-bold text-blue-400 text-2xl mb-2">Backlog Tracker</h2>
                         <div className="flex mb-3">
                             <div className="technology-card"><DiSqllite className="icon-standard" /><span className="text-xs">SQLlite</span></div>
@@ -27,10 +27,10 @@ const Projects = () => {
                             <a href="https://github.com/muhsink99/backlog_tracker" className="flex btn-primary mr-3"><FaGithub className="mr-3" />Github</a>
                         </div>
                     </div>
-                    <div>
+                    <div className="ml-auto">
+                        <img className="rounded" src="https://picsum.photos/400"></img>
                     </div>
                 </div>
-
             </section>
         </div>
     );
