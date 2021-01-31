@@ -1,10 +1,7 @@
 import * as React from "react"
-import { Link } from 'gatsby';
 
-import { navLinks } from '../../config';
 
 const Hero = () => {
-    const { links } = navLinks
     return (
         <div className="flex items-center min-h-screen">
             <section className="mx-auto container w-4/5">

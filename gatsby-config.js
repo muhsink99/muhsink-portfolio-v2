@@ -9,11 +9,12 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-postcss",
     `gatsby-plugin-smoothscroll`,
+    `gatsby-transformer-sharp`, `gatsby-plugin-sharp`,
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./src/images/",
+        path: `${__dirname}/src/images/`,
       },
       __key: "images",
     },

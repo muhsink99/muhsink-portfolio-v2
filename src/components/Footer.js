@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from 'gatsby';
 
-import { navLinks, initials } from '../../config';
+import { initials } from '../../config';
 
 const Footer = () => {
     return (
