@@ -11,7 +11,7 @@
 }
 
 .technology-card { 
-    @apply bg-gray-200 rounded flex px-2 py-2 mr-2;
+    @apply bg-gray-200 rounded flex px-2 py-2 mr-2 mb-1;
 }
 
 .icon-standard { 

@@ -37,7 +37,7 @@ const Projects = () => {
 
                     <div className="my-auto mx-auto text-center">
                         <h2 className="font-bold text-blue-400 text-2xl mb-2">Recipe Book</h2>
-                        <div className="flex mb-3 justify-center">
+                        <div className="flex flex-wrap mb-3 justify-center">
                             <div className="technology-card"><DiReact className="icon-standard" /><span className="text-xs">React</span></div>
                             <div className="technology-card"><DiHtml5 className="icon-standard" /><span className="text-xs">HTML5</span></div>
                             <div className="technology-card"><DiCss3 className="icon-standard" /><span className="text-xs">CSS3</span></div>
@@ -81,7 +81,7 @@ const Projects = () => {
                             <div className="technology-card"><DiReact className="icon-standard" /><span className="text-xs">React</span></div>
                             <div className="technology-card"><DiJavascript className="icon-standard" /><span className="text-xs">Javascript</span></div>
                         </div>
-                        <p className="text-lg mb-3">A website to show various my various projects and skills</p>
+                        <p className="text-lg mb-3">A website to show my various projects and skills</p>
                         <div id="project-buttons" className="flex justify-center">
                             <a href="https://github.com/muhsink99/muhsink-portfolio-v2" className="flex btn-primary mr-3"><FaGithub className="mr-3" />Github</a>
                         </div>
