@@ -2,7 +2,6 @@ import * as React from "react"
 import { Link } from 'gatsby';
 
 import { navLinks, initials } from '../../config';
-import scrollTo from 'gatsby-plugin-smoothscroll';
 
 const Header = () => {
     const { menu } = navLinks
@@ -24,7 +23,6 @@ const Header = () => {
                             className=" transition duration-300 ease-in-out text-md px-3 py-2 rounded hover:bg-blue-50"
                             key={key}
                             to={url}
-                            onClick={() => scrollTo({ url })}
                         >
                             {name}
                         </Link>

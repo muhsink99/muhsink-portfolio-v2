@@ -9,7 +9,7 @@ import { FaLink, FaGithub, FaTimesCircle } from "react-icons/fa";
 
 const Projects = () => {
     return (
-        <div className="flex min-h-screen">
+        <div id="projects" className="flex min-h-screen">
             <section className="mx-auto container w-4/5">
                 <h1 className="uppercase font-bold text-4xl mb-10">
                     projects
