@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from 'gatsby';
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 import { initials } from '../../config';
 
@@ -17,10 +18,11 @@ const Footer = () => {
                 </Link>
                 <p>
                     © Muhsin Kumbay, 2021
-            </p>
-                <p>
-                    social media icons go here
-            </p>
+                 </p>
+                <div id="socials" className="mb-2 flex flex-row">
+                    <a href="https://github.com/muhsink99"><FaGithub className="icon-social" /></a>
+                    <a href="https://www.linkedin.com/in/muhsin-kumbay/"><FaLinkedin className="icon-social" /></a>
+                </div>
             </footer>
         </>
     );
