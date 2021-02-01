@@ -15,9 +15,9 @@ const Projects = () => {
                     projects
                 </h1>
                 <div className="container grid lg:grid-cols-2 md:grid-cols-1 gap-8 mx-auto mb-5">
-                    <div className="my-auto mr-2">
+                    <div className="my-auto mx-auto text-center">
                         <h2 className="font-bold text-blue-400 text-2xl mb-2">Backlog Tracker</h2>
-                        <div className="flex mb-3">
+                        <div className="flex mb-3 justify-center">
                             <div className="technology-card"><DiSqllite className="icon-standard" /><span className="text-xs">SQLlite</span></div>
                             <div className="technology-card"><DiHtml5 className="icon-standard" /><span className="text-xs">HTML5</span></div>
                             <div className="technology-card"><DiPython className="icon-standard" /><span className="text-xs">Python</span></div>
@@ -26,18 +26,18 @@ const Projects = () => {
                             <div className="technology-card"><DiBootstrap className="icon-standard" /><span className="text-xs">Bootstrap</span></div>
                         </div>
                         <p className="text-lg mb-3">Built to help its user keep track of various shows from various streaming services</p>
-                        <div id="project-buttons" className="flex">
+                        <div id="project-buttons" className="flex justify-center">
                             <a href="https://muhsink99.pythonanywhere.com/" className="flex btn-primary mr-3"><FaLink className="mr-3" />Live Link</a>
                             <a href="https://github.com/muhsink99/backlog_tracker" className="flex btn-primary mr-3"><FaGithub className="mr-3" />Github</a>
                         </div>
-                    </div>
-                    <div className="mx-auto lg:ml-auto lg:mx-0">
-                        <img className="rounded" src="https://picsum.photos/400"></img>
+                        <div className="mt-5">
+                            <img className="rounded mx-auto" src="https://picsum.photos/400"></img>
+                        </div>
                     </div>
 
-                    <div className="my-auto">
+                    <div className="my-auto mx-auto text-center">
                         <h2 className="font-bold text-blue-400 text-2xl mb-2">Recipe Book</h2>
-                        <div className="flex mb-3">
+                        <div className="flex mb-3 justify-center">
                             <div className="technology-card"><DiReact className="icon-standard" /><span className="text-xs">React</span></div>
                             <div className="technology-card"><DiHtml5 className="icon-standard" /><span className="text-xs">HTML5</span></div>
                             <div className="technology-card"><DiCss3 className="icon-standard" /><span className="text-xs">CSS3</span></div>
@@ -48,33 +48,33 @@ const Projects = () => {
                             <div className="technology-card"><DiJavascript className="icon-standard" /><span className="text-xs">Javascript</span></div>
                         </div>
                         <p className="text-lg mb-3">Allows its user to compile a list of recipes in one contained place. </p>
-                        <div id="project-buttons" className="flex">
+                        <div id="project-buttons" className="flex justify-center">
                             <a href="https://github.com/muhsink99/recipe-book" className="flex btn-primary mr-3"><FaGithub className="mr-3" />Github</a>
                         </div>
-                    </div>
-                    <div className="mx-auto lg:ml-auto lg:mx-0">
-                        <img className="rounded" src="https://picsum.photos/400"></img>
+                        <div className="mt-5">
+                            <img className="rounded mx-auto" src="https://picsum.photos/400"></img>
+                        </div>
                     </div>
 
-                    <div className="my-auto">
+                    <div className="my-auto mx-auto text-center">
                         <h2 className="font-bold text-blue-400 text-2xl mb-2">Remote Healthcare Tracker</h2>
-                        <div className="flex mb-3">
+                        <div className="flex mb-3 justify-center">
                             <div className="technology-card"><DiDart className="icon-standard" /><span className="text-xs">Dart</span></div>
                             <div className="technology-card"><DiFirebase className="icon-standard" /><span className="text-xs">Firebase</span></div>
                         </div>
                         <p className="text-lg mb-3">A cross-platform healthcare app to allow clinicians to keep track of opt-in patients for vital sign recordings + more. Made with the goal to help reduce cardivascular disease risk </p>
-                        <div id="project-buttons" className="flex">
+                        <div id="project-buttons" className="flex justify-center">
                             <span href="https://github.com/muhsink99/backlog_tracker" className="flex btn-gray mr-3"><FaTimesCircle className="mr-3" />Closed Source</span>
                             <a href="https://github.com/muhsink99/backlog_tracker" className="flex btn-primary mr-3"><FaLink className="mr-3" />Video Presentation</a>
                         </div>
-                    </div>
-                    <div className="mx-auto lg:ml-auto lg:mx-0">
-                        <img className="rounded" src="https://picsum.photos/400"></img>
+                        <div className="mt-5">
+                            <img className="rounded mx-auto" src="https://picsum.photos/400"></img>
+                        </div>
                     </div>
 
-                    <div className="my-auto">
+                    <div className="my-auto mx-auto text-center">
                         <h2 className="font-bold text-blue-400 text-2xl mb-2">Portfolio Website</h2>
-                        <div className="flex mb-3">
+                        <div className="flex mb-3 justify-center">
                             <div className="technology-card"><DiHtml5 className="icon-standard" /><span className="text-xs">HTML5</span></div>
                             <div className="technology-card"><DiCss3 className="icon-standard" /><span className="text-xs">CSS3</span></div>
                             <div className="technology-card"><DiSass className="icon-standard" /><span className="text-xs">Sass</span></div>
@@ -82,12 +82,12 @@ const Projects = () => {
                             <div className="technology-card"><DiJavascript className="icon-standard" /><span className="text-xs">Javascript</span></div>
                         </div>
                         <p className="text-lg mb-3">A website to show various my various projects and skills</p>
-                        <div id="project-buttons" className="flex">
+                        <div id="project-buttons" className="flex justify-center">
                             <a href="https://github.com/muhsink99/muhsink-portfolio-v2" className="flex btn-primary mr-3"><FaGithub className="mr-3" />Github</a>
                         </div>
-                    </div>
-                    <div className="mx-auto lg:ml-auto lg:mx-0">
-                        <img className="rounded" src="https://picsum.photos/400"></img>
+                        <div className="mt-5">
+                            <img className="rounded mx-auto" src="https://picsum.photos/400"></img>
+                        </div>
                     </div>
                 </div>
             </section>
