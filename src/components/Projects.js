@@ -9,12 +9,12 @@ import { FaLink, FaGithub, FaTimesCircle } from "react-icons/fa";
 
 const Projects = () => {
     return (
-        <div id="projects" className="flex min-h-screen">
-            <section className="mx-auto container w-4/5">
+        <div id="projects" className="min-h-screen">
+            <section className="mx-auto w-5/5 md:w-4/5 my-5 mb-10 px-5">
                 <h1 className="uppercase font-bold text-4xl mb-5">
                     projects
                 </h1>
-                <div className="container grid lg:grid-cols-2 md:grid-cols-1 gap-8 mx-auto mb-5">
+                <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-8 mx-auto mb-5">
                     <div className="mx-auto text-center">
                         <h2 className="font-bold text-blue-400 text-2xl mb-2">Backlog Tracker</h2>
                         <div className="flex mb-3 justify-center">

@@ -15,7 +15,7 @@ const Header = () => {
                     <span className="text-blue-500"> .</span>
                 </h1>
             </Link>
-            <nav className="flex items-center">
+            <nav className="flex items-center invisible md:visible">
                 {menu.map(({ name, url }, key) => {
                     console.log(url);
                     return (

@@ -13,7 +13,7 @@ const Hero = () => {
                     <a href="https://github.com/muhsink99"><FaGithub className="icon-social" /></a>
                     <a href="https://www.linkedin.com/in/muhsin-kumbay/"><FaLinkedin className="icon-social" /></a>
                 </div>
-                <p className="text-2xl w-3/5 mb-4">I'm a Computer Scientist based in London, UK specialising in building incredible web and mobile solutions</p>
+                <p className="text-2xl w-5/5 lg:w-3/5 mb-4">I'm a Computer Scientist based in London, UK specialising in building incredible web and mobile solutions</p>
                 <a href="#about" className="btn-primary">Find out more</a>
             </section>
         </div>
