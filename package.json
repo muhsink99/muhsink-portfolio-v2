@@ -26,6 +26,7 @@
     "gatsby-plugin-smoothscroll": "^1.2.0",
     "gatsby-source-filesystem": "^2.10.0",
     "gatsby-transformer-sharp": "^2.11.0",
+    "netlify-cli": "^3.4.6",
     "postcss": "^8.2.4",
     "postcss-import": "^14.0.0",
     "postcss-nested": "^5.0.3",

@@ -52,7 +52,7 @@ const Projects = () => {
                             <a href="https://github.com/muhsink99/recipe-book" className="flex btn-primary mr-3"><FaGithub className="btn-icon" />Github</a>
                         </div>
                         <div className="mt-5">
-                            <img className="rounded mx-auto" src={require("/src/images/Projects/project-1-1.png")}></img>
+                            <img className="rounded mx-auto" src={require("/src/images/Projects/project-2-1.png")}></img>
                         </div>
                     </div>
 
