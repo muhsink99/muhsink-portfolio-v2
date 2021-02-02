@@ -9,13 +9,13 @@ const Header = () => {
     return (
         <header
             className="flex items-center justify-between py-6 px-12 ">
-            <Link to="/" aria-label="home">
+            <Link to="/" aria-label="home" className="mr-1">
                 <h1 className="text-3xl font-bold">
                     {initials}
                     <span className="text-blue-500"> .</span>
                 </h1>
             </Link>
-            <nav className="flex items-center invisible md:visible">
+            <nav className="flex items-center hidden md:block">
                 {menu.map(({ name, url }, key) => {
                     console.log(url);
                     return (
