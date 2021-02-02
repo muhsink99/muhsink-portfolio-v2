@@ -11,11 +11,11 @@ const Projects = () => {
     return (
         <div id="projects" className="flex min-h-screen">
             <section className="mx-auto container w-4/5">
-                <h1 className="uppercase font-bold text-4xl mb-10">
+                <h1 className="uppercase font-bold text-4xl mb-5">
                     projects
                 </h1>
                 <div className="container grid lg:grid-cols-2 md:grid-cols-1 gap-8 mx-auto mb-5">
-                    <div className="my-auto mx-auto text-center">
+                    <div className="mx-auto text-center">
                         <h2 className="font-bold text-blue-400 text-2xl mb-2">Backlog Tracker</h2>
                         <div className="flex mb-3 justify-center">
                             <div className="technology-card"><DiSqllite className="icon-standard" /><span className="text-xs">SQLlite</span></div>
@@ -31,11 +31,11 @@ const Projects = () => {
                             <a href="https://github.com/muhsink99/backlog_tracker" className="flex btn-primary mr-3"><FaGithub className="mr-3" />Github</a>
                         </div>
                         <div className="mt-5">
-                            <img className="rounded mx-auto" src="https://picsum.photos/400"></img>
+                            <img className="rounded mx-auto w-400 h-400" src={require("/src/images/Projects/project-1-1.png")}></img>
                         </div>
                     </div>
 
-                    <div className="my-auto mx-auto text-center">
+                    <div className="mx-auto text-center">
                         <h2 className="font-bold text-blue-400 text-2xl mb-2">Recipe Book</h2>
                         <div className="flex flex-wrap mb-3 justify-center">
                             <div className="technology-card"><DiReact className="icon-standard" /><span className="text-xs">React</span></div>
@@ -52,11 +52,11 @@ const Projects = () => {
                             <a href="https://github.com/muhsink99/recipe-book" className="flex btn-primary mr-3"><FaGithub className="mr-3" />Github</a>
                         </div>
                         <div className="mt-5">
-                            <img className="rounded mx-auto" src="https://picsum.photos/400"></img>
+                            <img className="rounded mx-auto" src={require("/src/images/Projects/project-2-1.png")}></img>
                         </div>
                     </div>
 
-                    <div className="my-auto mx-auto text-center">
+                    <div className="mx-auto text-center">
                         <h2 className="font-bold text-blue-400 text-2xl mb-2">Remote Healthcare Tracker</h2>
                         <div className="flex mb-3 justify-center">
                             <div className="technology-card"><DiDart className="icon-standard" /><span className="text-xs">Dart</span></div>
@@ -64,15 +64,13 @@ const Projects = () => {
                         </div>
                         <p className="text-lg mb-3">A cross-platform healthcare app to allow clinicians to keep track of opt-in patients for vital sign recordings + more. Made with the goal to help reduce cardivascular disease risk </p>
                         <div id="project-buttons" className="flex justify-center">
-                            <span href="https://github.com/muhsink99/backlog_tracker" className="flex btn-gray mr-3"><FaTimesCircle className="mr-3" />Closed Source</span>
-                            <a href="https://github.com/muhsink99/backlog_tracker" className="flex btn-primary mr-3"><FaLink className="mr-3" />Video Presentation</a>
-                        </div>
+                            <span className="flex btn-gray mr-3"><FaTimesCircle className="mr-3" />Closed Source</span>                        </div>
                         <div className="mt-5">
-                            <img className="rounded mx-auto" src="https://picsum.photos/400"></img>
+                            <img className="rounded mx-auto w-64 h-128" src={require("/src/images/Projects/project-3-1.png")} ></img>
                         </div>
                     </div>
 
-                    <div className="my-auto mx-auto text-center">
+                    <div className="mx-auto text-center">
                         <h2 className="font-bold text-blue-400 text-2xl mb-2">Portfolio Website</h2>
                         <div className="flex mb-3 justify-center">
                             <div className="technology-card"><DiHtml5 className="icon-standard" /><span className="text-xs">HTML5</span></div>
@@ -85,8 +83,8 @@ const Projects = () => {
                         <div id="project-buttons" className="flex justify-center">
                             <a href="https://github.com/muhsink99/muhsink-portfolio-v2" className="flex btn-primary mr-3"><FaGithub className="mr-3" />Github</a>
                         </div>
-                        <div className="mt-5">
-                            <img className="rounded mx-auto" src="https://picsum.photos/400"></img>
+                        <div className="my-auto">
+                            <img className="rounded mx-auto w-400 h-400" src={require("/src/images/Projects/project-4-1.png")} ></img>
                         </div>
                     </div>
                 </div>
