@@ -17,7 +17,7 @@ const Footer = () => {
                         <span className="text-blue-500"> .</span>
                     </h1>
                 </Link>
-                <nav className="flex items-center hidden md:block my-2">
+                <nav className="flex items-center my-2">
                     {menu.map(({ name, url }, key) => {
                         console.log(url);
                         return (
@@ -31,7 +31,7 @@ const Footer = () => {
                         )
                     })}
                 </nav>
-                <p className="my-1">
+                <p className="my-1 text-center">
                     <a href="https://icons8.com/icon/53562/database">Icons provided by Icons8</a>,
                     © Muhsin Kumbay, 2021
                  </p>

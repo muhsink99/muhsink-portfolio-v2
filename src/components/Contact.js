@@ -9,8 +9,8 @@ const Contact = () => {
                     Contact
                 </h1>
                 <p className="text-lg text-center mb-5">Interested? Feel free to contact me via the following:</p>
-                <a href="https://www.linkedin.com/in/muhsin-kumbay/" class="flex justify-center btn-primary text-center mb-3"><FaLinkedin className="btn-icon" />LinkedIn</a>
-                <a href="mailto:kumbaymuhsin@gmail.com" class="flex justify-center btn-primary text-center mb-3"><FaEnvelope className="btn-icon" />E-Mail (kumbaymuhsin@gmail.com)</a>
+                <a href="https://www.linkedin.com/in/muhsin-kumbay/" className="flex justify-center btn-primary text-center mb-3"><FaLinkedin className="btn-icon" />LinkedIn</a>
+                <a href="mailto:kumbaymuhsin@gmail.com" className="flex justify-center btn-primary text-center mb-3"><FaEnvelope className="btn-icon" />E-Mail (kumbaymuhsin@gmail.com)</a>
             </section>
         </div>
     );
