@@ -13,7 +13,7 @@ const About = () => {
                     <h1 className="text-center font-bold text-4xl mb-3">
                         About
                     </h1>
-                    <p className="text-2xl text-center w-4/5 mx-auto mb-10">
+                    <p className="text-2xl md:text-center w-4/5 mx-auto mb-10">
                         I'm a self-driven Computer Scientist specialising in web and mobile app development.
                         Work in both front-end and back-end development and always keen to learn new technologies.
                     </p>
