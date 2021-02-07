@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div className="flex items-center min-h-screen">
             <section className="mx-auto container w-4/5">
-                <h1 className="uppercase font-black text-lg">
+                <h1 className="font-black text-lg">
                     Hi, my name is
                 </h1>
                 <h2 className="font-black text-5xl text-blue-500 mb-2">Muhsin Kumbay</h2>

@@ -1,21 +1,57 @@
 import * as React from "react"
 
+import {
+    DiSqllite, DiHtml5, DiDjango, DiCss3, DiBootstrap, DiReact, DiFirebase, DiDart,
+    DiSass, DiJavascript, DiPython, DiNodejs, DiMongodb, DiMysql
+} from "react-icons/di";
+
 const About = () => {
     return (
-        <div id="about" className="container grid sm:grid-cols-1 lg:grid-cols-2 w-4/5 mx-auto">
-            <div className="my-10">
-                <img
-                    className="mx-auto lg:mx-0 rounded w-96 h-96"
-                    src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="about"></img>
-            </div>
+        <div id="about" className="container grid sm:grid-cols-1 lg:grid-cols-1 w-4/5 mx-auto">
             <div className="mx-auto my-10">
                 <section>
-                    <h1 className="uppercase font-bold text-4xl mb-3">
+                    <h1 className="text-center font-bold text-4xl mb-3">
                         About
                     </h1>
-                    <p className="text-xl">
-                        I'm a passionate, fast-learning full-stack web developer dedicated to building modern and responsive websites using a variety of technologies with a keen interest in mobile app development as well. Having recently graduated with a First Class Honours in Computer Science (Software Engineering) from King's College London, I'm currently seeking full-time work opportunities to further my skills
+                    <p className="text-2xl text-center w-4/5 mx-auto mb-10">
+                        I'm a self-driven Computer Scientist specialising in web and mobile app development.
+                        Work in both front-end and back-end development and always keen to learn new technologies.
                     </p>
+                    <div className="container grid sm:grid-cols-1 lg:grid-cols-3 w-4/5 mx-auto">
+                        <div className="flex flex-col mx-auto mx-2 mb-10 rounded bg-white px-3 py-3 shadow-sm">
+                            <h2 className="text-center font-black text-2xl mb-3 text-blue-500">Front-End</h2>
+                            <p className="text-lg text-center mb-2">Building responsive and performance-driven websites </p>
+                            <div id="icons" className="flex flex-row mx-auto">
+                                <DiHtml5 className="icon-medium"></DiHtml5>
+                                <DiCss3 className="icon-medium"></DiCss3>
+                                <DiBootstrap className="icon-medium"></DiBootstrap>
+                                <DiSass className="icon-medium"></DiSass>
+                                <DiReact className="icon-medium"></DiReact>
+                                <DiDjango className="icon-medium"></DiDjango>
+                            </div>
+                        </div>
+                        <div className="flex flex-col mx-auto mx-2 mb-10 rounded bg-white px-3 py-3 shadow-sm">
+                            <h2 className="text-center font-black text-2xl mb-3 text-blue-500">Back-End</h2>
+                            <p className="text-lg text-center mb-2">Implement servers or use modern serverless technologies </p>
+                            <div id="icons" className="flex flex-row mx-auto">
+                                <DiJavascript className="icon-medium"></DiJavascript>
+                                <DiFirebase className="icon-medium"></DiFirebase>
+                                <DiPython className="icon-medium"></DiPython>
+                                <DiNodejs className="icon-medium"></DiNodejs>
+                                <DiDart className="icon-medium"></DiDart>
+                            </div>
+                        </div>
+                        <div className="flex flex-col mx-auto mx-2 mb-10 rounded bg-white px-3 py-3 shadow-sm">
+                            <h2 className="text-center font-black text-2xl mb-3 text-blue-500" >Databases</h2>
+                            <p className="text-lg text-center mb-2">Understanding the correct database to use in each project is vital </p>
+                            <div id="icons" className="flex flex-row mx-auto">
+                                <DiSqllite className="icon-medium"></DiSqllite>
+                                <DiMongodb className="icon-medium"></DiMongodb>
+                                <DiFirebase className="icon-medium"></DiFirebase>
+                                <DiMysql className="icon-medium"></DiMysql>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </div>
         </div>
