@@ -5,14 +5,12 @@ import {
 } from "react-icons/di";
 import { FaLink, FaGithub, FaTimesCircle } from "react-icons/fa";
 
-//TODO: add images for projects 
-
 const Projects = () => {
     return (
         <div id="projects" className="min-h-screen">
             <section className="mx-auto w-5/5 md:w-4/5 my-5 mb-10 px-5g">
-                <h1 className="uppercase font-bold text-4xl mb-5">
-                    projects
+                <h1 className="text-center font-bold text-4xl mb-5">
+                    Projects
                 </h1>
                 <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-8 mx-auto mb-5">
                     <div className="mx-auto text-center">

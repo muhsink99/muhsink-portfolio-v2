@@ -4,7 +4,7 @@ const Education = () => {
     return (
         <div id="education">
             <section className="my-5 mb-10 mx-auto container w-4/5">
-                <h1 className="uppercase font-bold text-4xl mb-3">
+                <h1 className="text-center font-bold text-4xl mb-3">
                     Education
                 </h1>
                 <div className="flex mb-5">
