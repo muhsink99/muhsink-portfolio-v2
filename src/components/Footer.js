@@ -17,6 +17,7 @@ const Footer = () => {
                     </h1>
                 </Link>
                 <p>
+                    <a href="https://icons8.com/icon/53562/database">Icons provided by Icons8</a>,
                     © Muhsin Kumbay, 2021
                  </p>
                 <div id="socials" className="mb-2 flex flex-row">
