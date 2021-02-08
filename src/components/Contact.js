@@ -11,9 +11,9 @@ const Contact = () => {
                 </h1>
                 <p className="text-lg text-center mb-5">Interested? Feel free to contact me via the following:</p>
                 <div className="grid lg:grid-cols-2 sm:grid-cols-1">
-                    <div id="contact-form" className="mx-10 my-auto">
+                    <div id="contact-form" className=" my-auto mx-10">
                         <h2 className="my-3">Send an e-mail to me: </h2>
-                        <a className="flex btn-primary text-center  justify-center mb-3" type="submit" value="Submit">Send message</a>
+                        <a href="mailto:kumbaymuhsin@gmail.com" className="flex justify-center btn-primary text-center mb-3">Send message</a>
                     </div>
                     <div id="socials" className="my-auto mx-10">
                         <h2 className="my-3">Socials:</h2>
