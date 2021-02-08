@@ -16,7 +16,7 @@ const Contact = () => {
                         <form className="flex flex-col">
                             <label className="mb-3">Full name</label><input type="text" aria-label="Full name" className="form-input"></input>
                             <label className="mb-3">E-Mail</label><input type="text" aria-label="Email" className="form-input"></input>
-                            <label className="mb-3">Message</label><textarea type="text" aria-label="Message" className="form-input"></textarea>
+                            <label className="mb-3">Message</label><textarea type="text" aria-label="Message" rows="5" cols="20" className="form-input"></textarea>
                             <button className="btn-primary text-center">Send message</button>
                         </form>
                     </div>

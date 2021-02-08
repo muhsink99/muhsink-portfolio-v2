@@ -31,5 +31,5 @@
 }
 
 .form-input { 
-    @apply rounded shadow-md px-3 h-12 mb-3 py-3 border
+    @apply rounded shadow-md px-3 h-12 mb-3 py-3 h-12 border
 }
