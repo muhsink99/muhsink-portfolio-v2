@@ -22,7 +22,7 @@ const Contact = () => {
                     </div>
                     <div id="socials" className="my-auto mx-10">
                         <h2 className="my-3">Socials:</h2>
-                        <a href="https://www.linkedin.com/in/muhsin-kumbay/" className="flex justify-center btn-primary text-center mb-3"><FaLinkedin className="btn-icon" />LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/muhsin-kumbay/" className="flex justify-center btn-primary text-center mb-3" target="_blank"><FaLinkedin className="btn-icon" />LinkedIn</a>
                     </div>
                 </div>
 

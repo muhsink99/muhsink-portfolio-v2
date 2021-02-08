@@ -25,8 +25,8 @@ const Projects = () => {
                         </div>
                         <p className="text-lg mb-3">Built to help its user keep track of various shows from various streaming services</p>
                         <div id="project-buttons" className="flex justify-center">
-                            <a href="https://muhsink99.pythonanywhere.com/" className="flex btn-primary mr-3"><FaLink className="btn-icon" />Live Link</a>
-                            <a href="https://github.com/muhsink99/backlog_tracker" className="flex btn-primary mr-3"><FaGithub className="btn-icon" />Github</a>
+                            <a href="https://muhsink99.pythonanywhere.com/" className="flex btn-primary mr-3" target="_blank"><FaLink className="btn-icon" />Live Link</a>
+                            <a href="https://github.com/muhsink99/backlog_tracker" className="flex btn-primary mr-3" target="_blank"><FaGithub className="btn-icon" />Github</a>
                         </div>
                         <div className="mt-5">
                             <img className="rounded mx-auto w-400 h-400" src={require("/src/images/Projects/project-1-1.png")}></img>
@@ -47,7 +47,7 @@ const Projects = () => {
                         </div>
                         <p className="text-lg mb-3">Allows its user to compile a list of recipes in one contained place. </p>
                         <div id="project-buttons" className="flex justify-center">
-                            <a href="https://github.com/muhsink99/recipe-book" className="flex btn-primary mr-3"><FaGithub className="btn-icon" />Github</a>
+                            <a href="https://github.com/muhsink99/recipe-book" className="flex btn-primary mr-3" target="_blank"><FaGithub className="btn-icon" />Github</a>
                         </div>
                         <div className="mt-5">
                             <img className="rounded mx-auto" src={require("/src/images/Projects/project-2-1.png")}></img>
@@ -80,7 +80,7 @@ const Projects = () => {
                         </div>
                         <p className="text-lg mb-3">A website to show my various projects and skills</p>
                         <div id="project-buttons" className="flex justify-center">
-                            <a href="https://github.com/muhsink99/muhsink-portfolio-v2" className="flex btn-primary mr-3"><FaGithub className="btn-icon" />Github</a>
+                            <a href="https://github.com/muhsink99/muhsink-portfolio-v2" className="flex btn-primary mr-3" target="_blank"><FaGithub className="btn-icon" />Github</a>
                         </div>
                         <div className="my-auto">
                             <img className="rounded mx-auto w-400 h-400" src={require("/src/images/Projects/project-4-1.png")} ></img>
