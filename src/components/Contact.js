@@ -1,5 +1,5 @@
 import * as React from "react"
-import { FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope, FaGithub } from "react-icons/fa";
 
 //                 <a href="mailto:kumbaymuhsin@gmail.com" className="flex justify-center btn-primary text-center mb-3"><FaEnvelope className="btn-icon" />E-Mail (kumbaymuhsin@gmail.com)</a>
 const Contact = () => {
@@ -10,17 +10,12 @@ const Contact = () => {
                     Contact
                 </h1>
                 <p className="text-lg text-center mb-5">Interested? Feel free to contact me via the following:</p>
-                <div className="grid lg:grid-cols-2 sm:grid-cols-1">
-                    <div id="contact-form" className=" my-auto mx-10">
-                        <h2 className="my-3">Send an e-mail to me: </h2>
-                        <a href="mailto:kumbaymuhsin@gmail.com" className="flex justify-center btn-primary text-center mb-3">Send message</a>
-                    </div>
-                    <div id="socials" className="my-auto mx-10">
-                        <h2 className="my-3">Socials:</h2>
-                        <a href="https://www.linkedin.com/in/muhsin-kumbay/" className="flex justify-center btn-primary text-center mb-3" target="_blank"><FaLinkedin className="btn-icon" />LinkedIn</a>
-                    </div>
-                </div>
+                <div id="socials" className="flex flex-row justify-center">
+                    <a className="p-5 bg-white rounded-full border mx-3 transition duration-300 ease-in-out hover:text-white hover:bg-blue-500" href="https://www.linkedin.com/in/muhsin-kumbay/" target=" _blank"><FaLinkedin /></a>
+                    <a className="p-5 bg-white rounded-full border mx-3 transition duration-300 ease-in-out hover:text-white hover:bg-yellow-500" href="mailto:kumbaymuhsin@gmail.com" target=" _blank"><FaEnvelope /></a>
+                    <a className="p-5 bg-white rounded-full border mx-3 transition duration-300 ease-in-out hover:text-white hover:bg-gray-500" href="https://github.com/muhsink99" target=" _blank"><FaGithub /></a>
 
+                </div>
             </section>
         </div >
     );
