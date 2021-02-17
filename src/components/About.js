@@ -19,7 +19,7 @@ const About = () => {
                     </p>
                     <div className="container grid sm:grid-cols-1 lg:grid-cols-3 mx-auto">
                         <div className="flex flex-col mx-1 mb-5 rounded bg-white px-3 py-3 shadow-sm border">
-                            <h2 className="text-center font-black text-2xl mb-3 text-blue-500">Front-End</h2>
+                            <h2 className="text-center font-medium text-2xl mb-3 text-blue-500">Front-End</h2>
                             <img src="https://img.icons8.com/ultraviolet/40/000000/media-queries.png" className="w-12 h-12 mb-2 mx-auto" />
                             <p className="text-lg text-center mb-2">Building responsive and performance-driven websites </p>
                             <div id="icons" className="flex flex-row mx-auto">
@@ -32,7 +32,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="flex flex-col mx-1 mb-5 rounded bg-white px-3 py-3 shadow-sm border">
-                            <h2 className="text-center font-black text-2xl mb-3 text-blue-500">Back-End</h2>
+                            <h2 className="text-center font-medium text-2xl mb-3 text-blue-500">Back-End</h2>
                             <img src="https://img.icons8.com/ultraviolet/40/000000/root-server.png" className="w-12 h-12 mb-2 mx-auto" />
                             <p className="text-lg text-center mb-2">Implement servers or use modern serverless technologies </p>
                             <div id="icons" className="flex flex-row mx-auto">
@@ -44,7 +44,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="flex flex-col mx-1 mb-5 rounded bg-white px-3 py-3 shadow-sm border">
-                            <h2 className="text-center font-black text-2xl mb-3 text-blue-500" >Databases</h2>
+                            <h2 className="text-center font-medium text-2xl mb-3 text-blue-500" >Databases</h2>
                             <img src="https://img.icons8.com/ultraviolet/40/000000/database.png" className="w-12 h-12 mb-2 mx-auto" />
                             <p className="text-lg text-center mb-2">Understanding the correct database technology to use in each project is vital </p>
                             <div id="icons" className="flex flex-row mx-auto">

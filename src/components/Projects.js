@@ -14,7 +14,7 @@ const Projects = () => {
                 </h1>
                 <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-8 mx-auto mb-5">
                     <div className="mx-5 my-5 text-center">
-                        <h2 className="font-bold text-blue-400 text-2xl mb-5">Backlog Tracker</h2>
+                        <h2 className="font-medium text-blue-500 text-2xl mb-5">Backlog Tracker</h2>
                         <div className="flex mb-5 justify-center">
                             <div className="technology-card"><DiSqllite className="icon-standard" /><span className="text-xs">SQLlite</span></div>
                             <div className="technology-card"><DiHtml5 className="icon-standard" /><span className="text-xs">HTML5</span></div>
@@ -28,13 +28,13 @@ const Projects = () => {
                             <a href="https://muhsink99.pythonanywhere.com/" className="flex btn-primary mr-3" target="_blank"><FaLink className="btn-icon" />Live Link</a>
                             <a href="https://github.com/muhsink99/backlog_tracker" className="flex btn-primary mr-3" target="_blank"><FaGithub className="btn-icon" />Github</a>
                         </div>
-                        <div className="mt-5 px-10">
+                        <div className="mt-5 px-3 border bg-white">
                             <img className="rounded mx-auto w-400 h-400" src={require("/src/images/Projects/project-1-1.png")}></img>
                         </div>
                     </div>
 
                     <div className="mx-5 my-5 text-center">
-                        <h2 className="font-bold text-blue-400 text-2xl mb-5">Recipe Book</h2>
+                        <h2 className="font-medium text-blue-500 text-2xl mb-5">Recipe Book</h2>
                         <div className="flex flex-wrap mb-5 justify-center">
                             <div className="technology-card"><DiReact className="icon-standard" /><span className="text-xs">React</span></div>
                             <div className="technology-card"><DiHtml5 className="icon-standard" /><span className="text-xs">HTML5</span></div>
@@ -49,13 +49,13 @@ const Projects = () => {
                         <div id="project-buttons" className="flex justify-center">
                             <a href="https://github.com/muhsink99/recipe-book" className="flex btn-primary mr-3" target="_blank"><FaGithub className="btn-icon" />Github</a>
                         </div>
-                        <div className="mt-5 px-3">
+                        <div className="mt-5 px-3 border bg-white">
                             <img className="rounded mx-auto" src={require("/src/images/Projects/project-2-1.png")}></img>
                         </div>
                     </div>
 
                     <div className="mx-5 my-5 mx-5 text-center">
-                        <h2 className="font-bold text-blue-400 text-2xl mb-5">Remote Healthcare Tracker</h2>
+                        <h2 className="font-medium text-blue-500 text-2xl mb-5">Remote Healthcare Tracker</h2>
                         <div className="flex mb-5 justify-center">
                             <div className="technology-card"><DiDart className="icon-standard" /><span className="text-xs">Dart</span></div>
                             <div className="technology-card"><DiFirebase className="icon-standard" /><span className="text-xs">Firebase</span></div>
@@ -64,13 +64,13 @@ const Projects = () => {
                         <div id="project-buttons" className="flex justify-center">
                             <span className="flex btn-gray mr-3"><FaTimesCircle className="btn-icon" />Closed Source</span>
                         </div>
-                        <div className="mt-5">
+                        <div className="mt-5 px-3 border bg-white">
                             <img className="rounded mx-auto w-64 h-128" src={require("/src/images/Projects/project-3-1.png")} ></img>
                         </div>
                     </div>
 
                     <div className="mx-5 my-5 text-center">
-                        <h2 className="font-bold text-blue-400 text-2xl mb-5">Portfolio Website</h2>
+                        <h2 className="font-medium text-blue-500 text-2xl mb-5">Portfolio Website</h2>
                         <div className="flex mb-5 justify-center">
                             <div className="technology-card"><DiHtml5 className="icon-standard" /><span className="text-xs">HTML5</span></div>
                             <div className="technology-card"><DiCss3 className="icon-standard" /><span className="text-xs">CSS3</span></div>
@@ -82,7 +82,7 @@ const Projects = () => {
                         <div id="project-buttons" className="flex justify-center">
                             <a href="https://github.com/muhsink99/muhsink-portfolio-v2" className="flex btn-primary mr-3" target="_blank"><FaGithub className="btn-icon" />Github</a>
                         </div>
-                        <div className="mt-5 px-3">
+                        <div className="mt-5 px-3 border">
                             <img className="rounded mx-auto w-400 h-400" src={require("/src/images/Projects/project-4-1.png")} ></img>
                         </div>
                     </div>

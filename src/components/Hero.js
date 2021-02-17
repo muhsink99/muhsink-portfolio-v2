@@ -5,10 +5,10 @@ const Hero = () => {
     return (
         <div className="flex items-center min-h-screen">
             <section className="mx-auto container w-4/5">
-                <h1 className="font-black text-lg">
+                <h2 className="font-medium text-lg">
                     Hi, my name is
-                </h1>
-                <h2 className="font-black text-5xl text-blue-500 mb-2">Muhsin Kumbay</h2>
+                </h2>
+                <h1 className="font-black text-5xl text-blue-500 mb-2">Muhsin Kumbay</h1>
                 <div id="socials" className="mb-2 flex flex-row">
                     <a href="https://github.com/muhsink99"><FaGithub className="icon-social" /></a>
                     <a href="https://www.linkedin.com/in/muhsin-kumbay/"><FaLinkedin className="icon-social" /></a>
