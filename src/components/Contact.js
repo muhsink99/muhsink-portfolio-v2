@@ -9,7 +9,7 @@ const Contact = () => {
                 <h1 className="text-center font-bold text-4xl mb-3">
                     Contact
                 </h1>
-                <p className="text-lg text-center mb-5">Interested? Feel free to contact me via the following:</p>
+                <p className="text-lg text-center mb-5">I'm no longer seeking opportunities, but if you want to contact me, feel free via the following:</p>
                 <div id="socials" className="flex flex-row justify-center">
                     <a className="p-5 bg-white rounded-full border mx-3 transition duration-300 ease-in-out hover:text-white hover:bg-blue-500" href="https://www.linkedin.com/in/muhsin-kumbay/" target=" _blank"><FaLinkedin /></a>
                     <a className="p-5 bg-white rounded-full border mx-3 transition duration-300 ease-in-out hover:text-white hover:bg-yellow-500" href="mailto:kumbaymuhsin@gmail.com" target=" _blank"><FaEnvelope /></a>
